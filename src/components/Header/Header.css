@@ -1,0 +1,39 @@
+.navbar {
+  background-color: #d70f64;
+  height: 70px;
+}
+.Navigation {
+  margin-bottom: 20px;
+}
+.Brand {
+  color: white;
+}
+.Navlink {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  position: relative;
+  bottom: 25px;
+  margin-left: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .Navlink {
+      font-size: 13px;
+  }
+}
+
+
+
+.Navlink:hover {
+  color: wheat;
+  text-decoration: none;
+}
+.active {
+  text-shadow: 1px 1px grey;
+  color: wheat;
+}
+.logoimage {
+  position: relative;
+  bottom: 25px;
+}
